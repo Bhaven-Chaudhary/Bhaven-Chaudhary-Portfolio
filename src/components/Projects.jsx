@@ -27,14 +27,14 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 px-6 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-gray-300"
+      className="py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-90 to-slate-900 text-gray-300"
     >
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-12">
-        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-400 text-center mb-14">
+      <div className="max-w-5xl mx-auto">
+        {/* ✅ Unified heading style */}
+        <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-12 text-center">
           Projects
         </h2>
 
-        {/* Flex container instead of grid */}
         <div className="flex flex-wrap gap-8">
           {projects.map((project, index) => (
             <div
@@ -46,7 +46,7 @@ export default function Projects() {
                  shadow-md hover:shadow-2xl hover:border-teal-500
                  transition-all duration-300 hover:-translate-y-1"
             >
-              {/* Header */}
+              {/* Card Header */}
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-extrabold text-teal-300 tracking-wide">
                   {project.title}

@@ -26,7 +26,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="py-20 px-6 bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 text-gray-300"
+      className="py-20 px-6 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950 text-gray-300"
     >
       <div className="max-w-5xl mx-auto">
         {/* Section Heading */}
