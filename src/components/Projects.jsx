@@ -25,9 +25,12 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-slate-900 text-gray-300">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-white text-center mb-10">
+    <section
+      id="projects"
+      className="py-20 px-6 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-gray-300"
+    >
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-12">
+        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-400 text-center mb-14">
           Projects
         </h2>
 
@@ -41,7 +44,7 @@ export default function Projects() {
                  w-full sm:w-[calc(50%-1rem)] min-h-[340px]
                  flex flex-col justify-between
                  shadow-md hover:shadow-2xl hover:border-teal-500
-                 transition-all duration-300"
+                 transition-all duration-300 hover:-translate-y-1"
             >
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
@@ -52,7 +55,7 @@ export default function Projects() {
               </div>
 
               {/* Description */}
-              <p className="text-[15px] text-gray-300 leading-relaxed mb-6 font-light">
+              <p className="text-[15px] text-gray-200/90 leading-relaxed mb-6 font-light">
                 {project.description}
               </p>
 
@@ -65,9 +68,7 @@ export default function Projects() {
                   {project.tech.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="bg-teal-500/20 text-teal-300 px-3 py-1
-                         rounded-full text-sm font-medium
-                         border border-teal-500/30"
+                      className="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm font-medium border border-teal-400/30 hover:border-teal-400 transition-colors"
                     >
                       {tech}
                     </span>
