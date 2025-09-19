@@ -24,22 +24,27 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-20 px-6 bg-slate-950 text-gray-300">
+    <section
+      id="experience"
+      className="py-20 px-6 bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 text-gray-300"
+    >
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-white text-center mb-10">
+        {/* Section Heading */}
+        <h2 className="text-4xl font-extrabold text-center mb-14 bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent">
           Experience
         </h2>
 
-        <div className="space-y-6">
+        <div className="space-y-10">
           {experiences.map((exp, idx) => (
             <div
               key={idx}
-              className="bg-slate-900 border border-slate-700 p-6 rounded-lg"
+              className="bg-slate-900/80 border border-slate-700 rounded-2xl p-8 shadow-lg hover:-translate-y-1 hover:shadow-teal-500/20 hover:border-teal-500 transition-transform duration-300"
             >
-              <h3 className="text-xl font-semibold text-white">{exp.role}</h3>
-              <p className="text-sm text-primary font-medium">{exp.company}</p>
-              <p className="text-xs text-gray-400 italic mb-3">{exp.period}</p>
-              <ul className="list-disc text-sm text-gray-400 pl-5 space-y-1">
+              <h3 className="text-2xl font-bold text-white mb-1">{exp.role}</h3>
+              <p className="text-teal-300 font-medium">{exp.company}</p>
+              <p className="text-sm text-gray-400 italic mb-4">{exp.period}</p>
+
+              <ul className="list-disc pl-6 space-y-2 text-gray-400 text-base">
                 {exp.responsibilities.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
@@ -51,4 +56,3 @@ export default function Experience() {
     </section>
   );
 }
-    
