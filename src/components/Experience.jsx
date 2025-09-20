@@ -2,23 +2,24 @@
 export default function Experience() {
   const experiences = [
     {
-      role: "Frontend Developer",
-      company: "Tech Solutions Pvt. Ltd.",
-      period: "Jan 2022 – Present",
+      role: "Software Engineering Specialist",
+      company: "Dassault Systemes",
+      period: "Sep 2022 - Present",
       responsibilities: [
-        "Developed and maintained web applications using React and Tailwind CSS.",
-        "Collaborated with UI/UX designers to build responsive, accessible interfaces.",
-        "Implemented reusable components and optimized performance.",
+        "Led frontend development for a SaaS platform using React.js, reducing UI bugs by 35%; refactored a Vue.js CRM module to improve code quality and user engagement by 20%.",
+        "Optimized development with reusable React components and contributed to a scalable design system.",
+        "Integrated AI-based ticket assistant by consuming internal APIs and crafting prompts to retrieve relevant past tickets, improving resolution speed.",
+        "Built UI to display LLM responses and capture feedback, to continuous fine-tune of the support agent.",
       ],
     },
     {
-      role: "Frontend Intern",
-      company: "Creative Web Agency",
-      period: "Jul 2020 – Dec 2021",
+      role: " System Engineer",
+      company: "Infosys",
+      period: "Feb 2021 - Sep 2022",
       responsibilities: [
-        "Worked on live projects using HTML, CSS, and JavaScript.",
-        "Converted Figma designs to pixel-perfect responsive layouts.",
-        "Learned component-based architecture with React basics.",
+        "Developed full-stack features using React.js and Spring Boot, shipping 12+ components across client apps.",
+        "Reduced frontend errors by 15% by improving API integrations and logging mechanisms.",
+        "Improved form flows and UI with cross-functional collaboration, increasing submission rates by 18%.",
       ],
     },
   ];
