@@ -1,5 +1,6 @@
 // src/components/Contact.jsx
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import SocialIcon from "./SocialIcon";
 
 export default function Contact() {
   return (
@@ -23,39 +24,11 @@ export default function Contact() {
         {/* Phone Number */}
         <p className="text-base font-medium text-teal-400 mb-8">
           <Phone size={20} className="inline mr-2" />
-          +91 12345 67890
+          +91 8554955143
         </p>
 
         {/* Social Icons */}
-        <div className="flex justify-center gap-8">
-          <a
-            href="https://www.linkedin.com/in/your-linkedin-id"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-            className="text-gray-400 hover:text-teal-400 hover:scale-110 transition-transform duration-200"
-          >
-            <Linkedin size={30} strokeWidth={1.8} />
-          </a>
-
-          <a
-            href="https://github.com/your-github-id"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="text-gray-400 hover:text-teal-400 hover:scale-110 transition-transform duration-200"
-          >
-            <Github size={30} strokeWidth={1.8} />
-          </a>
-
-          <a
-            href="mailto:your.email@example.com"
-            aria-label="Email"
-            className="text-gray-400 hover:text-teal-400 hover:scale-110 transition-transform duration-200"
-          >
-            <Mail size={30} strokeWidth={1.8} />
-          </a>
-        </div>
+        <SocialIcon />
       </div>
     </section>
   );
