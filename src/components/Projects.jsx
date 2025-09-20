@@ -21,7 +21,6 @@ export default function Projects() {
         "Resend (Email API)",
         "TailwindCSS",
         "Lucide-React",
-        ,
       ],
       link: "",
       gitLink:
@@ -50,7 +49,7 @@ export default function Projects() {
         "A responsive personal portfolio website built using React and Tailwind CSS. Includes smooth scroll, reusable components which are designed to scale application with ease",
       tech: ["React", "Tailwind", "Vite", "Lucid React"],
       link: "",
-      gitLink: "#",
+      gitLink: "https://github.com/Bhaven-Chaudhary/Bhaven-Chaudhary-Portfolio",
       listPoints: [],
     },
     {
