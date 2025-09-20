@@ -51,7 +51,8 @@ export default function Navbar() {
           </ul>
 
           <a
-            href="/path/to/resume.pdf" // replace with actual link
+            href="/Bhaven_Chaudhary_Resume.pdf"
+            download="Bhaven_Chaudhary_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-teal-400 text-black px-5 py-2 rounded-lg font-semibold hover:bg-teal-300 transition-colors duration-200"
