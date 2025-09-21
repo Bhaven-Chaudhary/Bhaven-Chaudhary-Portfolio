@@ -1,5 +1,5 @@
 // src/App.jsx
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Education from "./components/Education";
@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";
 export default function App() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <main className="pt-16">
         <Hero />
         <About />

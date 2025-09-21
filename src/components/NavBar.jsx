@@ -1,7 +1,7 @@
-// src/components/Navbar.jsx
+// src/components/NavBar.jsx
 import { useState, useEffect } from "react";
 
-export default function Navbar() {
+export default function NavBar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
