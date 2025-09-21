@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <>
-      <Navbar onToggleNav={(open) => setLockScroll(open)} />
+      <Navbar />
       <main className="pt-16">
         <Hero />
         <About />
