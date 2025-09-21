@@ -48,7 +48,7 @@ export default function Projects() {
       description:
         "A responsive personal portfolio website built using React and Tailwind CSS. Includes smooth scroll, reusable components which are designed to scale application with ease",
       tech: ["React", "Tailwind", "Vite", "Lucid React"],
-      link: "",
+      link: "https://bhaven-chaudhary-portfolio.vercel.app/",
       gitLink: "https://github.com/Bhaven-Chaudhary/Bhaven-Chaudhary-Portfolio",
       listPoints: [],
     },
