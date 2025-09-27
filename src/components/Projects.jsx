@@ -125,7 +125,7 @@ export default function Projects() {
 
               <div className="border-t border-slate-700 pt-4 flex justify-between">
                 <a
-                  href={project.link}
+                  href={project.gitLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-teal-400 text-sm font-semibold
